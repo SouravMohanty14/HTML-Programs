@@ -1,0 +1,15 @@
+<html>
+<body>
+<form action="Register" method="gets">
+<!--The required attribute is a boolean attribute. When present, it specifies that an input field must be filled out before submitting the form.-->
+Username :<input type="text" name="uname" placeholder="Enter Username" required/>
+<br/>
+Email :<input type="email" name="email" placeholder="Enter Email ID" required/>
+<br/>
+<!--The pattern attribute specifies a regular expression that the <input> element's value is checked against-->
+Mobile :<input type="text" name="mobile" pattern="[789]\d{9}" placeholder="Enter Mobile No" required/>
+<br/>
+<input type="submit" value="SUBMIT"/>
+</form>
+</body>
+</html>
